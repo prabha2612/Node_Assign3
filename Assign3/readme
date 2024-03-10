@@ -1,0 +1,32 @@
+This is a simple Node.js Express application that serves static HTML files and allows users to create and view user data stored in a text file.
+
+## Installation
+
+1. Clone the repository:
+   https://github.com/prabha2612/Node_assign3.git
+
+2. Navigate to the project directory:
+   cd Assign3
+
+3. Install dependencies:
+   npm install
+##Requirements
+ - install Nodejs 
+ - install nodemon 
+ - install express 
+ - install body-parser
+
+## Dependencies
+Express: Fast, unopinionated, minimalist web framework for Node.js.
+body-parser: Node.js body parsing middleware.
+fs: Node.js file system module for reading and writing files.
+
+
+## File Structure
+app.js: Main entry point of the application.
+htmlfiles/: Directory containing static HTML files served by the application.
+index.html: Home page of the application.
+create.html: Form for adding a new user.
+users.html: Page displaying the list of users.
+users.txt: Text file where user data is stored.
+
